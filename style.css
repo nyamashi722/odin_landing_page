@@ -23,47 +23,6 @@ p {
     margin: 0;
 }
 
-header {
-    background-size: initial;
-    background-color: #1F2937;
-    justify-content: space-between;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100vw;
-}
-
-h3 {
-    font-size: 24px;
-    color: #F9FAF8;
-    margin: 0;
-}
-
-.top-section {
-    display: flex;
-    justify-content: space-around;
-    background-color: #1F2937;
-    align-items: center;
-    flex: 1;
-    width: 100vw;
-}
-
-.title {
-    width: 400px;
-}
-
-.nature {
-    width: 400px;
-    height: 200px
-}
-
-h1 {
-    font-size: 48px;
-    font-weight: bold;
-    color: #F9FAF8;
-    margin: 0;
-}
-
 .title-subtext {
     font-size: 18px;
     color: #E5E7EB;
@@ -78,12 +37,57 @@ h1 {
     padding: 5px 20px;
 }
 
+.top-section {
+    display: flex;
+    width: 100vw;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    gap: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.top-left-container,
+.top-right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 400px;
+    gap: 60px;
+}
+
+.top-right-container {
+    gap: 70px;
+}
+
+.header-logo {
+    align-self: flex-start;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.nature {
+    width: 400px;
+    height: 200px
+}
+
 .info-section {
     width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
     flex: 1;
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 60px;
 }
 
 h2 {
@@ -119,9 +123,12 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100vw;
     background-color: #E5E7EB;
     flex: 1;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .quote-container {
@@ -150,6 +157,8 @@ h2 {
     align-items: center;
     flex: 1;
     width: 100vw;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .sign-up-container {
@@ -159,6 +168,13 @@ h2 {
     width: 700px;
     height: 100px;
     background-color: #3882F6;
+    border-radius: 6px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0;
 }
 
 .second-button {
@@ -180,4 +196,6 @@ h2 {
     align-items: center;
     justify-content: center;
     width: 100vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
